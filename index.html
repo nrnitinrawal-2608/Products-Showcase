@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nitin Rawal · Products</title>
+<meta name="description" content="Real products I design and ship with AI: OrdersIn, a WhatsApp-first order book for home kitchens, and Auto Rash, a Bangalore traffic browser game.">
+<meta property="og:title" content="Nitin Rawal · Products built with AI">
+<meta property="og:description" content="OrdersIn, a WhatsApp-first order book for home kitchens, and Auto Rash, a Bangalore traffic browser game.">
+<meta property="og:image" content="https://nrnitinrawal-2608.github.io/Products-Showcase/assets/og.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230066CC'/%3E%3Ctext x='32' y='44' font-family='Arial' font-weight='700' font-size='34' text-anchor='middle' fill='white'%3ENR%3C/text%3E%3C/svg%3E">
+<style>
+@font-face{font-family:GSF;src:url(assets/fonts/GoogleSansFlex.woff2) format('woff2');font-weight:100 1000;font-display:swap}
+@font-face{font-family:Bungee;src:url(assets/fonts/Bungee.woff2) format('woff2');font-display:swap}
+@font-face{font-family:Chivo;font-weight:700;src:url(assets/fonts/ChivoMono-700.woff2) format('woff2');font-display:swap}
+:root{--ink:#111;--soft:#4A4F57;--dim:#777C85;--line:#E6E8EC;--bg:#fff;--card:#F6F7F9;--blue:#0066CC;
+  --night:#120E2A;--mari:#FFB627;--chalk:#FFF4E0}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:GSF,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.5}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+header{padding:72px 0 40px}
+.who{font-size:15px;font-weight:600;color:var(--dim);letter-spacing:.02em}
+h1{font-size:clamp(34px,6vw,58px);line-height:1.05;letter-spacing:-.02em;margin:12px 0 0;font-weight:600}
+h1 em{font-style:normal;color:var(--blue)}
+.intro{font-size:clamp(17px,2.2vw,20px);color:var(--soft);max-width:720px;margin:20px 0 0}
+.how{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:34px}
+.how div{border:1px solid var(--line);border-radius:16px;padding:16px 18px;font-size:15px;color:var(--soft)}
+.how b{display:block;color:var(--ink);font-size:16px;margin-bottom:2px}
+section.p{margin:28px 0;border-radius:28px;overflow:hidden;display:grid;grid-template-columns:1.05fr 1fr}
+.p .txt{padding:44px 44px 40px}
+.p .img{position:relative;min-height:360px}
+.p .img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.badge{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:600;border-radius:999px;padding:6px 12px}
+.badge i{width:8px;height:8px;border-radius:50%;display:inline-block}
+.tagline{font-size:clamp(22px,2.6vw,28px);line-height:1.2;font-weight:600;margin:18px 0 0;letter-spacing:-.01em}
+.desc{font-size:16px;margin:12px 0 0}
+.stack{font-size:13.5px;margin-top:16px}
+.btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+.btn{display:inline-flex;align-items:center;gap:6px;text-decoration:none;font-weight:600;font-size:15px;border-radius:999px;padding:11px 18px;border:1px solid transparent}
+/* OrdersIn */
+.oi{background:var(--card);border:1px solid var(--line)}
+.oi .logo{height:40px;display:block;margin-top:18px}
+.oi .badge{background:#fff;border:1px solid var(--line)}
+.oi .badge i{background:#1E9E4A}
+.oi .desc{color:var(--soft)}
+.oi .stack{color:var(--dim)}
+.oi .btn.pri{background:var(--blue);color:#fff}
+.oi .btn.sec{background:#fff;border-color:var(--line);color:var(--ink)}
+.oi .img{background:#0A4FA3}
+.oi .img img{object-fit:cover;object-position:50% 20%}
+/* Auto Rash */
+.ar .img{background:#140F2E}
+.ar .img img{object-fit:cover;object-position:50% 40%}
+.ar{background:radial-gradient(120% 90% at 0% 0%,#3B1D4F 0%,var(--night) 60%);color:var(--chalk)}
+.ar .badge{background:rgba(255,182,39,.14);border:1px solid rgba(255,182,39,.45);color:var(--mari)}
+.ar .badge i{background:var(--mari)}
+.ar .title{font-family:Bungee,Impact,sans-serif;font-size:clamp(44px,6vw,64px);line-height:.9;color:var(--mari);margin-top:18px;text-shadow:0 4px 0 #0B0819;letter-spacing:.01em}
+.ar .tagline{font-family:Chivo,ui-monospace,monospace;font-weight:700;font-size:clamp(17px,2vw,20px);line-height:1.45}
+.ar .desc{color:rgba(255,244,224,.78)}
+.ar .stack{color:rgba(255,244,224,.6)}
+.ar .btn.pri{background:var(--mari);color:#0B0819}
+.ar .btn.sec{border-color:rgba(255,244,224,.35);color:var(--chalk)}
+.ar .note{font-size:13px;color:rgba(255,244,224,.55);margin-top:14px}
+.more{border:2px dashed var(--line);border-radius:24px;padding:26px 30px;color:var(--dim);font-size:16px;margin:28px 0 0}
+.more b{color:var(--ink)}
+footer{padding:44px 0 60px;color:var(--dim);font-size:14px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+footer a{color:var(--blue);text-decoration:none;font-weight:600}
+@media (max-width:820px){
+  section.p{grid-template-columns:1fr}
+  .p .img{min-height:300px;order:-1}
+  .p .txt{padding:30px 24px 30px}
+  .how{grid-template-columns:1fr}
+  header{padding:48px 0 24px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="who">Nitin Rawal</div>
+  <h1>I build real products <em>with AI.</em></h1>
+  <p class="intro">Some for real businesses, some just for fun. On every one, I own the product, the design, the testing and the release calls. Claude Code writes the code.</p>
+  <div class="how">
+    <div><b>Decide</b>What to build, what it should feel like, and what to cut.</div>
+    <div><b>Test for real</b>On real phones, with real users, until it holds up.</div>
+    <div><b>Ship</b>Security, privacy and cost checked before anything goes live.</div>
+  </div>
+</header>
+
+<section class="p oi">
+  <div class="txt">
+    <span class="badge"><i></i>Live in supervised beta with a real home kitchen</span>
+    <img class="logo" src="assets/ordersin-logo.png" alt="OrdersIn">
+    <p class="tagline">The order book that already speaks WhatsApp.</p>
+    <p class="desc">A mobile web app that runs the daily operations of a one-person food business: orders, billing, UPI payments, stock and customers. Without asking anyone to change how they already work. In English, Hindi and Kannada.</p>
+    <div class="stack">React 19 · TypeScript · Firebase · Cloud Functions · PWA</div>
+    <div class="btns">
+      <a class="btn pri" href="https://ordersin.co/app">Try the live app →</a>
+      <a class="btn sec" href="assets/OrdersIn-Product-Walkthrough.pdf">Product walkthrough (PDF)</a>
+      <a class="btn sec" href="https://ordersin.co">ordersin.co</a>
+      <a class="btn sec" href="https://github.com/nrnitinrawal-2608/ordersin">Showcase repo</a>
+    </div>
+  </div>
+  <div class="img"><img src="assets/ordersin-hero.png" alt="OrdersIn screens: customer storefront, the owner's home dashboard, and a WhatsApp chat turned into an order"></div>
+</section>
+
+<section class="p ar">
+  <div class="txt">
+    <span class="badge"><i></i>Side project · made for fun</span>
+    <div class="title">AUTO<br>RASH</div>
+    <p class="tagline">Road Rash, but you're a Bangalore auto driver. Majestic to Silk Board.</p>
+    <p class="desc">A browser game with a lathi, potholes, metro stations and a cow you must never hit. Under the hood: a cheat-proof Firebase leaderboard, nickname-only data, an A+ security rating, and every release auto-published to itch.io.</p>
+    <div class="stack">JavaScript · Canvas · Web Audio · Firebase · GitHub Actions</div>
+    <div class="btns">
+      <a class="btn pri" href="https://gobicat.itch.io/auto-rash">Play on itch.io →</a>
+      <a class="btn sec" href="assets/Auto-Rash-How-It-Was-Built.pdf">How it was built (PDF)</a>
+    </div>
+    <p class="note">Works best on a phone. The game's code is private.</p>
+  </div>
+  <div class="img"><img src="assets/autorash-phones.png" alt="Auto Rash on three phones: sparing a cow, whacking a delivery rider, and an airport cab driver asking for a fixed fare"></div>
+</section>
+
+<div class="more"><b>More on the way.</b> Each new project lands here when it's live.</div>
+
+<footer>
+  <span>© Nitin Rawal · Built with Claude Code</span>
+  <a href="https://github.com/nrnitinrawal-2608">GitHub →</a>
+</footer>
+</div>
+</body>
+</html>
