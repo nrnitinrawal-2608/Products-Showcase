@@ -17,7 +17,9 @@ A mobile web app that runs the daily operations of a one-person food business: o
 
 <img src="assets/ordersin-hero.png" width="600" alt="OrdersIn screens: customer storefront, the owner's home dashboard, and a WhatsApp chat turned into an order">
 
-**[Try the live app →](https://ordersin.co/app)** · [Product walkthrough (PDF)](assets/OrdersIn-Product-Walkthrough.pdf) · [ordersin.co](https://ordersin.co) · [Showcase repo](https://github.com/nrnitinrawal-2608/ordersin)
+**[Open the live app →](https://ordersin.co/app)** · [Product walkthrough (PDF)](assets/OrdersIn-Product-Walkthrough.pdf) · [ordersin.co](https://ordersin.co) · [Full write-up](https://github.com/nrnitinrawal-2608/ordersin)
+
+<sub>Invite-only beta — the link is safe to click, but sign-in needs a code. The walkthrough PDF shows the whole product from the inside.</sub>
 
 `React 19` `TypeScript` `Firebase` `Cloud Functions` `PWA`
 
