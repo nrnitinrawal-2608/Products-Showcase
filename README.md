@@ -25,21 +25,4 @@ A mobile web app that runs the daily operations of a one-person food business: o
 
 ---
 
-## Auto Rash
-
-**Road Rash, but you're a Bangalore auto driver. Majestic to Silk Board.**
-A browser game with a lathi, potholes, metro stations and a cow you must never hit. Under the hood: a cheat-proof Firebase leaderboard, nickname-only data, an A+ security rating, and every release auto-published to itch.io.
-
-🛺 Side project, made for fun. Works best on a phone.
-
-<img src="assets/autorash-phones.png" width="600" alt="Auto Rash on three phones: sparing a cow, whacking a delivery rider, and an airport cab driver asking for a fixed fare">
-
-**[Play on itch.io →](https://gobicat.itch.io/auto-rash)** · [How it was built (PDF)](assets/Auto-Rash-How-It-Was-Built.pdf)
-
-`JavaScript` `Canvas` `Web Audio` `Firebase` `GitHub Actions`
-
-*The game's code is private; the PDF shows how it was built.*
-
----
-
 **More on the way.** Each new project lands here when it's live.
